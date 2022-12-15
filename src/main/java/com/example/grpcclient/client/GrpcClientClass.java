@@ -6,7 +6,7 @@ import net.devh.boot.grpc.client.inject.GrpcClient;
 @Service
 public class GrpcClientClass {
 
-    @GrpcClient("city-score")
+    @GrpcClient("hello-service")
     private com.example.grpcserver.HelloServiceGrpc.HelloServiceBlockingStub helloServiceBlockingStub;
 
     public void testingGRPC() {
